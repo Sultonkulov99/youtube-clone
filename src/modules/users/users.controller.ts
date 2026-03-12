@@ -6,4 +6,9 @@ export class UsersController {
     getInfo(){
         console.log("salom")
     }
+    
+    @Get()
+    getHello(): string {
+        return 'Hello World!';
+    }
 }
